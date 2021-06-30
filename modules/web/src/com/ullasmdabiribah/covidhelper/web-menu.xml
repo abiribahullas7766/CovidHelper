@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://schemas.haulmont.com/cuba/menu.xsd">
+    <menu id="application-covidhelper" insertBefore="administration" caption="mainMsg://menu_config.application-covidhelper">
+        <item screen="covidhelper_Doctor.browse" caption="mainMsg://menu_config.covidhelper_Doctor.browse"/>
+        <item screen="covidhelper_Patient.browse" caption="mainMsg://menu_config.covidhelper_Patient.browse"/>
+        <item screen="covidhelper_Diagnosis.browse" caption="mainMsg://menu_config.covidhelper_Diagnosis.browse"/>
+        <item screen="covidhelper_CovidLevel.browse" caption="mainMsg://menu_config.covidhelper_CovidLevel.browse"/>
+    </menu>
+</menu-config>
